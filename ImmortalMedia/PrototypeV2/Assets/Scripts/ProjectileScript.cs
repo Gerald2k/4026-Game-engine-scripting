@@ -34,6 +34,11 @@ public class ProjectileScript : MonoBehaviour
             // When the player shoots the other player
 
         }
+        else if (coll.gameObject.tag == "Door" || coll.gameObject.tag == "Wall")
+        {
+            // When the player shoots the other player
+
+        }
     }
 
     // up

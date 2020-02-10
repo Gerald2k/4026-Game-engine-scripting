@@ -7,10 +7,9 @@ public class DoorScript : MonoBehaviour
     // If enemy then remove door collider to let thru
     private void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.tag == "Enemy")
+        if (coll.gameObject.tag == "Enemy" || coll.gameObject.tag == "Projectile")
         {
-            // Need to be changed so that it doesnt remove but allows enemy through
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            Physics2D.IgnoreCollision(coll.collider.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
     }
 }
