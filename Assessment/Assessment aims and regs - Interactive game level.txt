@@ -1,0 +1,52 @@
+Due: Friday 6th December 2019 3pm
+
+Your code and build files will be submitted via GitHub (invite link: https://classroom.github.com/a/liB-vT9B)
+Your video submission will be submitted online via Moodle. 
+While Moodle does not require a set naming convention for any files uploaded,
+please ensure your submission is given a meaningful file name, with no special characters (e.g. commas, speech marks, question marks, etc.).
+
+Assessment requirements
+You are to create a 3D game level in Unity, using the techniques 
+demonstrated during the lectures and tutorials.
+This game level must demonstrate the use of triggers, opening and 
+closing doors, collisions,and physics based reactions to events 
+occurring in-game such as explosions.
+
+Through the completion of this assessment, you will be able to 
+demonstrate the ability to design, plan and build a simple level,
+code simple mechanics into this level, and ensure that they function 
+correctly and that no errors or warnings are shown when the 
+code is compiled.
+
+When the game is loaded, the user should be presented with a splash 
+screen followed by a main menu that contains at least 3 options 
+(Start Game, Options and Quit).
+One of these options must allow the modification of game settings 
+such as difficulty, brightness, or screen resolution.
+
+You are to create a video run-through of your game,
+highlighting relevant features and also showing where those features 
+are implemented in code and explaining the code.
+This should be between 5-10 minutes long.
+
+Level of programming meets minimum requirements of assessment in 
+that the game is able to be compiled and run without compilation 
+errors or warnings being generated. Game is functionally complete 
+with majority of features implemented.
+
+To achieve 50
+Code shows an attempt to meet coding standards, and contains the requirements listed above under section 3.
+Game level is feature complete and can be played through with minimal issues. Some demonstration of good programming practice is evident in source code,
+e.g. efficient code, good commenting, no "super-functions", logical break up of functionality into script files.
+
+To achieve 60+
+The game level meets all the requirements outlined in section 3, effort has been made to make sure code is as efficient and as clean as possible
+with thorough commenting throughout. Advanced features of the game level have been attempted 
+(e.g. inventive use of programming techniques to create interesting game mechanics).
+Sound knowledge of programming principles is demonstrated in source code. Code matches coding guidelines reasonably well.
+
+To achieve 70+
+The submitted game matches all of the above criteria. Game contains advanced features 
+(custom character controller, good use of events or other C# features).
+Code is well written and efficient, good knowledge of Unity programming principles is demonstrated in source code.
+Code follows coding guidelines very well.
